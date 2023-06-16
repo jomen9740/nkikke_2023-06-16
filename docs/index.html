@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>니케 사이트 모작</title>
+
+ <!-- 제이쿼리 불러오기 -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <!-- 폰트어썸 불러오기 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<!-- 테일윈드 불러오기 -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- 스와이퍼 불러오기 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<!-- css 불러오기 -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- 자바스크립트 불러오기  -->
+	<script defer src="script/script.js"></script>
+</head>
+
+<body>	
+	<!-- 탑바 부분  -->
+	<div class="nikke-top-bar h-[57px]">
+		<div class="con h-full flex">
+			<div class="nikke-logo">
+				<a href="#" class="flex h-full"></a>
+			</div>
+			<nav class="menu-box-1">
+				<ul class="flex">
+					<li class="btn-box">
+						<a href="#">
+							<p>NEWS</p>
+						</a>
+					</li>
+					<li class="btn-box">
+						<a href="#">
+							<p>세계관</p>
+						</a>
+					</li>
+					<li class="btn-box">
+						<a href="#">
+							<p>캐릭터</p>
+						</a>
+					</li>
+					<li class="btn-box">
+						<a href="#">
+							<p>게임 특징</p>
+						</a>
+					</li>
+					<li class="btn-box">
+						<a href="#">
+							<p>갤러리</p>
+						</a>
+					</li>
+					<li class="btn-box">
+						<a href="#">
+							<p>구매</p>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="channel-box flex  ml-auto">
+				<ul class="channel-box-1 flex">
+					<li>
+						<a class="naver-box" href="#"></a>
+					</li>
+					<li>
+						<a class="twitter-box" href="#"></a>
+					</li>
+					<li>
+						<a class="facebook-box" href="#"></a>
+					</li>
+					<li>
+						<a class="youtube-box" href="#"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="language-box flex ml-[70px]">
+				<span class="global-image"></span>
+				<nav class="language-text flex h-full">
+					<ul class="flex">
+						<li class="h-full">
+							<a class="flex h-full items-center">한국어</a>
+							<ul>
+								<li><a href="#">日本語</a></li>
+								<li><a href="#">English</a></li>
+								<li><a href="#">ไทย</a></li>
+								<li><a href="#">Deutsch</a></li>
+								<li><a href="#">Français</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<span class="language-text-button">
+					<i class="fa-solid fa-sort-down"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+	<!-- 탑바 부분  -->
+
+	<!-- 영상 부분  -->
+	<section class="main-nikke-section-1 ">
+		<video class="nikke-section-1__video" src="https://nikke-kr.com/assets/video.d5b24132.mp4" autoplay loop
+			muted></video>
+		<div class="center-box">
+			<div class="center-image"></div>
+			<a class="play-box" href="#"></a>
+			<div class="download-box flex">
+				<img class="qr qr-1 apple-qr" src="https://nikke-kr.com/pc/ossweb-img/img_qr3.png" alt="">
+				<img class="qr qr-2 google-qr" src="https://nikke-kr.com/pc/ossweb-img/img_qr4.png" alt="">
+				<a class="store-box-1 apple-box" href="#"></a>
+				<a class="store-box-2 google-box" href="#"></a>
+			</div>
+			<div class="scroll-box"></div>
+		</div>
+	</section>
+	<!-- 영상 부분 -->
+
+	<!-- 니케 사이트 공지사항 부분  -->
+	<div class="nikke-news">
+		<div class="left-box"></div>
+		<div class="right-box"></div>
+		<div class="title-ofiical-box"></div>
+		<div class="title-ofiical-box-2"></div>
+		<div class="center-box-2">
+			<div class="main-pa-box">
+				<div class="news-box">
+					<div class="news-title-box">
+						<span class="active">공지</span>
+						<span>NEWS</span>
+						<span>공지사항</span>
+					</div>
+					<div class="news__center">
+						<div class="swiper-box news-center__item active">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide swiper-slide-1">
+										<a href="#">
+											<img class="news-swiper-img"
+												src="https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_d64250ed636e421565009c3ea0b87b657399e707.jpeg"
+												alt="">
+											<div class="news-swiper-time">2023.05.18</div>
+											<div class="news-swiper-name">5월 18일 업데이트 개선사항(5/19)</div>
+										</a>
+									</div>
+									<div class="swiper-slide swiper-slide-2">
+										<a href="#">
+											<img class="news-swiper-img"
+												src="https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_f81ed094984890bff7f4fe56a80dfb3d3fd68112.png"
+												alt="">
+											<div class="news-swiper-time">2023.05.17</div>
+											<div class="news-swiper-name">니케 밸런스 조정 및 스킬 수정 안내[5월 19일 내용 수정]</div>
+										</a>
+									</div>
+									<div class="swiper-slide swiper-slide-3">
+										<a href="#">
+											<img
+												src="https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_8a60ae3a0a60bd3c5955ed8cfb859ed2f63c8c0b.jpeg"
+												alt="">
+											<div class="news-swiper-time">2023.05.15</div>
+											<div class="news-swiper-name">5월 18일 업데이트 공지</div>
+										</a>
+									</div>
+									<div class="swiper-slide swiper-slide-4">
+										<a href="#">
+											<img
+												src="https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_ff884f4b7b9066f589de435c10cca19b5ecc46f2.jpeg"
+												alt="">
+											<div class="news-swiper-time">2023.05.15</div>
+											<div class="news-swiper-name">2023년 5월 개발자노트</div>
+										</a>
+									</div>
+									<div class="swiper-slide swiper-slide-5">
+										<a href="#">
+											<img
+												src="https://na-nikke-aws.playerinfinite.com/cms/nrft/feeds/pic/_d64250ed636e421565009c3ea0b87b657399e707.jpeg"
+												alt="">
+											<div class="news-swiper-time">2023.04.28</div>
+											<div class="news-swiper-name">트위터 API 사양 변경 관련 안내[4/28 19:10 내용 수정]</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<nav class="news-list news-list-1 news-center__item">
+							<ul>
+								<li>
+									<a href="#">
+										<span>5월 23일 버그 수정</span>
+										<span>2023 05 22</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>5월 18일 업데이트 개선사항(5/19 내용 추가)</span>
+										<span>2023 05 18</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>니케 밸런스 조정 및 스킬 수정 안내[5월 19일 내용 수정]</span>
+										<span>2023 05 17</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>5월 18일 업데이트 공지</span>
+										<span>2023 05 15</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>2023년 5월 개발자노트</span>
+										<span>2023 05 15</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>트위터 API 사양 변경 관련 안내[4/28 19:10 내용 수정]</span>
+										<span>2023 04 28</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>4월 27일 알려진 이슈 안내</span>
+										<span>2023 04 27</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>4월 27일 업데이트 개선사항</span>
+										<span>2023 04 27</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>4월 27일 업데이트 공지</span>
+										<span>2023 04 25</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>4월 27일 니케 스킬 수정 안내</span>
+										<span>2023 04 24</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="news-list news-list-2 news-center__item">
+							<ul>
+								<li>
+									<a href="#">
+										<span>4월 27일 알려진 이슈 안내</span>
+										<span>2023 04 27</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>두근두근! 니케 투표 - 이벤트 규칙</span>
+										<span>2023 04 12</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>2023년 4월 개발자 노트</span>
+										<span>2023 04 11</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>3월 30일 업데이트 개선사항 안내 4월 7일 내용 추가</span>
+										<span>2023 03 30</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>캐릭터 스킬 수정 안내</span>
+										<span>2023 03 29</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>3월30일 업데이트 공지</span>
+										<span>2023 03 27</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>계정 시스템 업그레이드 안내</span>
+										<span>2023 03 27</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>【개발자 노트】3월</span>
+										<span>2023 03 06</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>니케 스킬 수정 안내</span>
+										<span>2023 02 20</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>《승리의 여신: 니케》PC 버전 관련 FAQ</span>
+										<span>2023 02 15</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>《승리의 여신: 니케》 PC 버전 관련 안내</span>
+										<span>2023 02 14</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>캐릭터 스킬 조정 안내</span>
+										<span>2023 01 09</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>'승리의 여신: 니케' 한국, 미국, 일본 1위 석권</span>
+										<span>2022 11 07</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>승리의 여신 니케 정식 서비스 오픈 안내</span>
+										<span>2022 11 04</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>레벨 인피니트, 미소녀 건슈팅 액션 ‘승리의 여신: 니케’ 정식 출시</span>
+										<span>2022 11 04</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="sjx-box">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="#">
+						<span>MORE</span>
+					</a>
+				</div>
+				<div class="news-title-box-2">
+					<div class="news-title-border-box-2">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/_f4db425869017175a5407a2ddca7495d7936d955.jpeg"
+							alt="">
+					</div>
+					<div class="news-title-box-text-2">
+						<a>공식 네이버 라운지</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 니케 사이트 공지사항 부분  -->
+
+	<!-- 월페이퍼 부분  -->
+	<div class="part-3">
+		<div class="swiper-box">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-box-1">
+						<div class="slide-text-img"></div>
+						<div class="slide-text">
+							<p class="slide-text-p1"></p>
+							<p class="slide-text-p2">니케. 지상을 빼앗긴 인류에게 승리를 가져다 줄 마지막 희망.</p>
+							<p class="slide-text-p3">그 절박한 염원이 담긴 이름과 함께 소녀들은 지상으로 향한다.</p>
+						</div>
+						<div class="sjx-box">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="swiper-icon-img"></div>
+					</div>
+					<div class="swiper-slide swiper-box-2">
+						<div class="slide-text-img-2"></div>
+						<div class="slide-text-2">
+							<p class="slide-text-p1"></p>
+							<p class="slide-text-p2">니케의 생산은 방주 내 3대 회사에서만 가능하다.</p>
+							<p class="slide-text-p3">생산된 니케는 중앙 정부에 소속되며, 지상 탈환뿐만 아니라 방주 내 다양한 분야에서도 일하게 된다.</p>
+						</div>
+						<div class="sjx-box-2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="swiper-icon-img-2"></div>
+					</div>
+					<div class="swiper-slide swiper-box-3">
+						<div class="slide-text-img-3"></div>
+						<div class="slide-text-3">
+							<p class="slide-text-p1"></p>
+							<p class="slide-text-p2">니케는 인간의 말에 절대복종하며, 절대 인간에게 위해를 가할 수 없다.</p>
+							<p class="slide-text-p3">그들의 생명에 위협이 가해진다 하더라도.</p>
+						</div>
+						<div class="sjx-box-3">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="swiper-icon-img-3"></div>
+					</div>
+					<div class="swiper-slide swiper-box-4">
+						<div class="slide-text-img-4"></div>
+						<div class="slide-text-4">
+							<p class="slide-text-p1"></p>
+							<p class="slide-text-p2">패배한 인류는 지하로 숨어들어갔다.</p>
+							<p class="slide-text-p3">방주는 인간이 살고 있는 유일한 장소다.</p>
+						</div>
+						<div class="sjx-box-4">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="swiper-icon-img-4"></div>
+					</div>
+					<div class="swiper-slide swiper-box-5">
+						<div class="slide-text-img-5"></div>
+						<div class="slide-text-5">
+							<p class="slide-text-p1"></p>
+							<p class="slide-text-p2">지상의 주인은 더 이상 인류가 아니다.</p>
+							<p class="slide-text-p3"></p>
+						</div>
+						<div class="sjx-box-5">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="swiper-icon-img-5"></div>
+					</div>
+				</div>
+				<!-- 스와이퍼 페이지네이션	-->
+				<div class="swiper-pagination__bg">
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 월페이퍼 부분  -->
+
+	<!-- 일러스트 스와이퍼 부분 -->
+	<div class="part-4">
+		<div class="title-4"></div>
+		<div class="title-4-1"></div>
+		<div class="swiper-left-icon"></div>
+		<div class="swiper-right-box"></div>
+		<img class="swiper-big-img" src="https://nikke-kr.com/pc/ossweb-img/BigSwiper/swiper_big_img1.png" alt="">
+		<div class="swiper-color">
+			<img class="swiper-color-img" src="https://nikke-kr.com/pc/ossweb-img/color/swiper4_color_box1.png" alt="">
+		</div>
+		<div class="text-box">
+			<img class="text-box-img" src="https://nikke-kr.com/pc/ossweb-img/text_bg1.png" alt="">
+		</div>
+		<img class="character-img" src="https://nikke-kr.com/pc/ossweb-img/role/d_role1.png" alt="">
+		<div class="big-swiper-box">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide big-slide-1">
+						<div class="decorate-1"></div>
+						<div class="decorate-2"></div>
+						<div class="team-box">
+							<span>카운터스</span>
+						</div>
+						<div class="name-box">라피</div>
+						<div class="cv-box">CV:김보나</div>
+						<div class="play-cv-box">
+							<div class="music">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="explanation-box">
+							<p>주인공 일행 중 한 명. 전투력 자체로만 보면 탑클래스일 정도로, 전투 방면으로 굉장한 잠재력을 지니고 있다.</p>
+							<p>자신이 니케라는 사실을 자각하고 있음에도 이따금 한 번씩 고개를 드는 인간으로서의 감정에 혼동을 겪어왔으며, 이런 감정이 바깥으로 표출되다 보니, 지금까지 크고 작은 문제를 일으켜왔다.
+							</p>
+							<p>지휘관에 대한 명령 불복종 등의 이유로 문제아로 낙인 찍혀, 많은 지휘관과 부대를 전전하며 지내왔다.</p>
+							<p>일견 차갑고 도도해 보이는 인상과 말투지만, 신용하는 상대에겐 누그러진 태도를 보여주기도 한다.</p>
+						</div>
+					</div>
+					<div class="swiper-slide big-slide-2">
+						<div class="decorate-1"></div>
+						<div class="decorate-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide small-swiper-box">
+			<div class="swiper-container-2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide small-slide-1"></div>
+					<div class="swiper-slide small-slide-2"></div>
+					<div class="swiper-slide small-slide-3"></div>
+					<div class="swiper-slide small-slide-4"></div>
+					<div class="swiper-slide small-slide-5"></div>
+					<div class="swiper-slide small-slide-6"></div>
+					<div class="swiper-slide small-slide-7"></div>
+					<div class="swiper-slide small-slide-8"></div>
+					<div class="swiper-slide small-slide-9"></div>
+					<div class="swiper-slide small-slide-10"></div>
+					<div class="swiper-slide small-slide-11"></div>
+					<div class="swiper-slide small-slide-12"></div>
+					<div class="swiper-slide small-slide-13"></div>
+					<div class="swiper-slide small-slide-14"></div>
+				</div>
+			</div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
+	<!-- 일러스트 스와이퍼 부분 -->
+
+	<!-- 게임 특징 부분 -->
+	<div class="part-5">
+		<div class="title-5"></div>
+		<div class="title-5-1"></div>
+		<div class="swiper-box__pr">
+			<div class="center-layer">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide swiper-box-1"></div>
+						<div class="swiper-slide swiper-box-2"></div>
+						<div class="swiper-slide swiper-box-3"></div>
+						<div class="swiper-slide swiper-box-4"></div>
+						<div class="swiper-slide swiper-box-5"></div>
+						<div class="swiper-slide swiper-box-6"></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 게임 특징 부분 -->
+
+	<!-- 갤러리 부분 작업 -->
+	<div class="part-6">
+		<div class="part-6-left-img"></div>
+		<div class="title-6-img"></div>
+		<div class="title-6-img-1"></div>
+		<div class="left-swiper-box">
+			<div class="swiper-container first-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-box-6">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/f03a4dc7d40aa71a1d7b7ef00d6df32fc4dc7e5c.png"
+							alt="">
+						<a class="play-icon" href="#"></a>
+						<div class="video-bg"></div>
+					</div>
+					<div class="swiper-slide swiper-box-6">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/f4068d9819cd0d8a16bf2f484eedd193b9263440.jpg"
+							alt="">
+						<a class="play-icon" href="#"></a>
+						<div class="video-bg"></div>
+					</div>
+					<div class="swiper-slide swiper-box-6">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/300796b04ebc3b2df7f4482e9c24d5c8c8586970.jpg"
+							alt="">
+						<a class="play-icon" href="#"></a>
+						<div class="video-bg"></div>
+					</div>
+					<div class="swiper-slide swiper-box-6">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/3b8b04a9e2a1ca6f59b630bdbdeac4042c2f2763.png"
+							alt="">
+						<a class="play-icon" href="#"></a>
+						<div class="video-bg"></div>
+					</div>
+					<div class="swiper-slide swiper-box-6">
+						<img
+							src="https://d13qzzxzwls0q1.cloudfront.net/cms/nrft/feeds/pic/08f6fad9cb66d1149ca323efd2ead443f0d236b7.png"
+							alt="">
+						<a class="play-icon" href="#"></a>
+						<div class="video-bg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right-swiper-box">
+			<div class="swiper-container second-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="swiper-box-7">
+							<span class="gear-img"></span>
+							<span>스쿼드 PV - 마이티 툴즈(Mighty Tools)</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-box-7">
+							<span class="gear-img"></span>
+							<span>스쿼드 PV - 트라이앵글(Triangle)</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-box-7">
+							<span class="gear-img"></span>
+							<span>스쿼드 PV - 프로토콜(protocol)</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-box-7">
+							<span class="gear-img"></span>
+							<span>Official Teaser</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-box-7">
+							<span class="gear-img"></span>
+							<span>스쿼드 PV - A.C.P.U.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 갤러리 부분 작업 -->
+
+	<!-- 하단 부분 작업 -->
+	<div class="part-7">
+		<div class="top-img"></div>
+		<div class="center-box">
+			<div class="part-7-right-box">
+				<div class="bottom-text-box">
+					<span class="rod-img"></span>
+					<span>홈</span>
+					<span class="rod-img"></span>
+				</div>
+				<div class="bottom-btn-box">
+					<a class="home-1" href="#">
+						<span>NEWS</span>
+					</a>
+					<a class="home-1" href="#">
+						<span>세계관</span>
+					</a>
+					<a class="home-1" href="#">
+						<span>캐릭터</span>
+					</a>
+					<a class="home-1" href="#">
+						<span>소개</span>
+					</a>
+					<a class="home-1" href="#">
+						<span>갤러리</span>
+					</a>
+					<a class="home-1" href="#">
+						<span>구매</span>
+					</a>
+				</div>
+				<div class="part-7-line"></div>
+				<div class="bottom-text-box bottom-text-box-2">
+					<span class="rod-img"></span>
+					<span>공식 채널</span>
+					<span class="rod-img"></span>
+				</div>
+				<div class="bottom-btn-box bottom-btn-box-2">
+					<a class="naver-bg" href="#">
+						<span class="part-7-naver-img"></span>
+						<span>NAVER LOUNGE</span>
+					</a>
+					<a class="twitter-bg" href="#">
+						<span class="part-7-twitter-img"></span>
+						<span>TWITTER</span>
+					</a>
+					<a class="facebook-bg" href="#">
+						<span class="part-7-facebook-img"></span>
+						<span>FACEBOOK</span>
+					</a>
+					<a class="youtube-bg" href="#">
+						<span class="part-7-youtube-img"></span>
+						<span>YOUTUBE</span>
+					</a>
+				</div>
+			</div>
+			<div class="part-7-character-img">
+			</div>
+			<a class="character-border" href="#"></a>
+			<div class="camp-list"></div>
+			<div class="name-list">마리안</div>
+		</div>
+	</div>
+	<!-- 하단 부분 작업 -->
+
+	<!-- footer 부분 작업  -->
+	<div class="part-8">
+		<div class="part-8-center-box">
+			<div class="footer-box">
+				<div class="footer-left-box">
+					<div class="footer-left-box-icon">
+						<img src="https://nikke-kr.com/pc/ossweb-img/footer_spec_icon.png" alt="">
+					</div>
+					<div class="footer-left-box-list">
+						<p>
+							<span>승리의 여신</span>
+							:
+							<span>니케</span>
+						</p>
+						<p>
+							<span>건슈팅 RPG</span>
+						</p>
+						<p>
+							<span>대응 OS</span>
+							:
+							<span>iOS/Android</span>
+						</p>
+						<p>
+							<span>출시</span>
+							:
+							<span>2022년</span>
+						</p>
+					</div>
+				</div>
+				<div class="footer-rigth-box">
+					<div class="footer-rigth-box-logo">
+						<img src="https://nikke-kr.com/assets/bottom_logo.f3b8c5af.png" alt="">
+					</div>
+					<div class="footer-rigth-box-badge">
+						<a class="footer-apple-img" href="#">
+							<img src="https://nikke-kr.com/assets/appstore.7195405f.png" alt="">
+						</a>
+						<a class="footer-google-img" href="#">
+							<img src="https://nikke-kr.com/assets/googleplay.c19d510a.png" alt="">
+						</a>
+					</div>
+					<div class="footer-rigth-box-notice">
+						<p>
+							애플(Apple) 및 애플의 로고는 미국 및 다른 국가에 등록된 Apple Inc.의 상표입니다. 앱스토어(App Store)는 Apple Inc.의 서비스 마크입니다.
+						</p>
+						<p>구글 플레이(Google Play) 및 구글 플레이의 로고는 Google LLC의 상표입니다.</p>
+						<p>일부 대응하지 않는 디바이스 기종이 존재합니다.</p>
+					</div>
+				</div>
+				<div class="footer-btn-box">
+					<a href="#">"이용약관"</a>
+					<a href="#">"개인정보 보호정책"</a>
+					<a href="#">"쿠키 정책"</a>
+					<a href="#">"문의하기"</a>
+				</div>
+				<div class="footer-policy">
+					<p>©Proxima Beta Pte. Limited ©SHIFT UP CORP.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer 부분 작업  -->	
+</body>
+
+</html>
